@@ -1,0 +1,14 @@
+{
+  "name": "node-blue-node-miele",
+  "version": "1.0.1",
+  "description": "This package provides node for Node-BLUE to communicate with Miele devices.",
+  "homepage": "https://github.com/Homegear/node-blue-node-miele",
+  "node-blue": {
+    "maxThreadCounts": {
+      "miele": 0
+    },
+    "nodes": {
+      "miele": "miele.s.php"
+    }
+  }
+}
